@@ -1,2 +1,4 @@
 # Some_time_series_problems
-Working on different data sets with time series features
+In this repository, I am gonaa to work on some data stes with time series features. 
+## First problem: invertigating effect of changing hyperparameters on temperature predication.
+
