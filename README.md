@@ -121,7 +121,7 @@ SimpleRNN:
 ![SimpleRnn-Sin project result](https://user-images.githubusercontent.com/42337253/192147806-9d3d3744-211b-4952-886f-f2a4c3c173cd.PNG)
 
 ## Fourth problem: Forecasting numbers of an international flight passengers between 1949 and 1960.
-This is a time series anticipation project. It seems there is not fundamental differences among this dataset and the previous one but implementing last scrip (with little changes) did not show as good result as last part. It is a bit ambiguous for me and still I cannot find a proper answer for this issue. I think this dataset need one more preprocessing step.  
+This is a time series anticipation project. It seems there is not fundamental differences among this dataset and the previous one but implementing last scrip (with little changes) did not show as good result as last part. It is a bit ambiguous for me and still I cannot find a proper answer for this issue. I think this dataset need one more preprocessing step. This part code uploaded as 'Number of Passengers Project'.
 
 
 
