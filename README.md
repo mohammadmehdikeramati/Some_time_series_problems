@@ -58,5 +58,29 @@ LSTM32 and learning rate 0.00001:
 
 ![Results (LSTM32 and lr0 00001)](https://user-images.githubusercontent.com/42337253/192145768-893feb50-dc89-45da-ab42-6dbf7c859067.PNG)
 
+And it is worth mentioning the results depict even though rmsprop optimizer had better performance on training data, validation loss and validation mae reduction was better when adam were implemented. It can be concluded, using adam can reduce the chance of overfitting.
+
+LSTM32 and rmsprop:
+
+![Results (LSTM32 and rmsprop and 10 epochs)](https://user-images.githubusercontent.com/42337253/192146051-c3029679-4816-4f1d-871e-d9a02a18ca18.PNG)
+
+LSTM32 and adam:
+
+![Results (LSTM32 and adam and 10 epochs)](https://user-images.githubusercontent.com/42337253/192146067-69f14f80-4315-44c1-8ae0-e4b9e8e538e1.PNG)
+
+### Third: Utilizing several dense layers
+As the results show, adding some dense layers (respectively 128,64 and 32) can improve the performance of our architecture.
+
+LSTM32 and a dense (one unit) output layer: 
+
+![Results (LSTM32 and rmsprop and 10 epochs)](https://user-images.githubusercontent.com/42337253/192146149-4cb8105d-9e27-4fbc-a5d7-6ed3a55873b6.PNG)
+
+LSTM32 and adding three extra dense (respectively 128, 64 and 32) layers: 
+
+![Results (LSTM32 and two denses128 64 32 and 10 epochs)](https://user-images.githubusercontent.com/42337253/192146197-23befc3b-41ca-4693-9a3a-fcaa7b226ea8.PNG)
+
+ ### Fourth: Changing sequence length
+Comparison among different sequence lengths illustrate that longer sequence length not only increase the process time, but also raise the loss and mae on both training and validation set. In fact, considering longer sequence length required changing other hyper parameters such as adding extra layers to our architecture, otherwise it may reduce its performance.
+
 
 
