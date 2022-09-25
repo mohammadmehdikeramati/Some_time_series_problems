@@ -5,6 +5,7 @@ In this attempt I investigated the effect of changing hyperparameters such as nu
 ### First: changing numbers of units
 As the results show As the results show decreasing numbers of units can cause the reduction rate of loss, mae, validation loss and validation mae to reduce. 
 LSTM32:
+
 ![Normal results](https://user-images.githubusercontent.com/42337253/192144926-c5aac0bd-2a0a-4c5a-9269-d045e3452caf.PNG)
 
 
