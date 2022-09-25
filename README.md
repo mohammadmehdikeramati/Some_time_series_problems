@@ -82,6 +82,46 @@ LSTM32 and adding three extra dense (respectively 128, 64 and 32) layers:
  ### Fourth: Changing sequence length
 Comparison among different sequence lengths illustrate that longer sequence length not only increase the process time, but also raise the loss and mae on both training and validation set. In fact, considering longer sequence length required changing other hyper parameters such as adding extra layers to our architecture, otherwise it may reduce its performance.
 
+LSTM32 and sequence length 120:
+
+![Results (LSTM32 and rmsprop and 10 epochs)](https://user-images.githubusercontent.com/42337253/192146899-2439e1c1-6a26-4e89-ae10-69cea10ee73e.PNG)
+
+LSTM32 and sequence length 80:
+
+![Results (LSTM32-and sequence80 and 10epochs)](https://user-images.githubusercontent.com/42337253/192146959-04a09035-9609-4604-aca1-40255eb898ea.PNG)
+
+LSTM32 and sequence length 160:
+
+![Results (LSTM32-and sequence160 and 10epochs)](https://user-images.githubusercontent.com/42337253/192146979-e2ec6a52-d43a-4361-ab0e-e2b67ffbf6e4.PNG)
+
+## Second problem: using dense layer instead of LSTM to analyze a time series
+In this section I used a dense layer instead of LSTM to predict last section time series. The results demonstrated a huge difference. This section code uploaded as 'Dense Instead of LSTM'.
+
+LSTM32:
+
+![Results (LSTM32 and rmsprop and 10 epochs)](https://user-images.githubusercontent.com/42337253/192147355-342be303-ff9b-4fa2-bd35-f96e9d396f85.PNG)
+
+Dense instead of LSTM32:
+
+![Dense instead of LSTM](https://user-images.githubusercontent.com/42337253/192147414-162e7f37-b6ec-49ee-85f7-552828a9544d.PNG)
+
+## Third problem: Comparison among LSTM, GRU and SimpleRNN performance in a sine wave prediction. 
+In this part, I tried to make a comparison among performance of LSTM, GRU and SimpleRNN via constracting a sine wave and test these algorithms performance in prediction of the constructed wave. The results show the better performance of GRU. This issue was according our expectation but GRU better convergence and lower loss, mae, validation loss and validation mae in comparison with LSTM was a bit strange. I think this is because this series is not complicated enough and therefore it is no need to utilize LSTM. The script of this section uploaded as 'Sin Project'.
+
+GRU:
+
+![GRU-Sin project result](https://user-images.githubusercontent.com/42337253/192147775-e1493d30-673f-42c8-9ec5-86e44dc6a0a8.PNG)
+
+LSTM:
+
+![LSTM-Sin project result](https://user-images.githubusercontent.com/42337253/192147791-aff2434f-b703-4187-92f5-bc86912b021a.PNG)
+
+SimpleRNN:
+
+![SimpleRnn-Sin project result](https://user-images.githubusercontent.com/42337253/192147806-9d3d3744-211b-4952-886f-f2a4c3c173cd.PNG)
+
+
+
 
 
 
