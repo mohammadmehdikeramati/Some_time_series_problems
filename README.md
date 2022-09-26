@@ -142,6 +142,8 @@ LSTM epochs with normalizing:
 
 ![LSTM -300epochs](https://user-images.githubusercontent.com/42337253/192340753-b81f056e-fc18-42df-a214-38ccb82436e5.png)
 
+
+
 LSTM training and validation loss with normalizing:
 
 ![LSTM loss-300epochs](https://user-images.githubusercontent.com/42337253/192337314-dd18a541-2a58-44a8-9729-6387dfd91b56.png)
