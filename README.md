@@ -136,6 +136,10 @@ LSTM prediction without normalizing:
 
 ![LSTM prediction-300epochs whitout normalizing](https://user-images.githubusercontent.com/42337253/192321571-f06beff1-7bce-429f-83b7-f6418e0d4565.png)
 
+LSTM epochs with normalizing:
+
+![LSTM -300epochs](https://user-images.githubusercontent.com/42337253/192340753-b81f056e-fc18-42df-a214-38ccb82436e5.png)
+
 LSTM training and validation loss with normalizing:
 
 ![LSTM loss-300epochs](https://user-images.githubusercontent.com/42337253/192337314-dd18a541-2a58-44a8-9729-6387dfd91b56.png)
@@ -165,7 +169,7 @@ Previous architecture with adding a drop out (0.5) layer:
 
 Previous architecture with adding recurrent drop out (0.5) in LSTM layer:
 
-![LSTM -300epochs- RDO0 5](https://user-images.githubusercontent.com/42337253/192339858-58efddb9-5853-40af-b44e-d50c91a17892.png)
+       ![LSTM -300epochs- RDO0 5](https://user-images.githubusercontent.com/42337253/192339858-58efddb9-5853-40af-b44e-d50c91a17892.png)
 
 ![LSTM loss-300epochs- RDO0 5](https://user-images.githubusercontent.com/42337253/192339913-ac992cb7-c6fa-4892-9642-d343e09733ae.png)
 
