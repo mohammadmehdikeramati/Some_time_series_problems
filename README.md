@@ -150,3 +150,29 @@ LSTM prediction with normalizing:
 
 ![LSTM prediction-300epochs- DO0 5](https://user-images.githubusercontent.com/42337253/192337605-16bc5aa4-3352-4b68-b4e2-599c72ba8c04.png)
 
+I also tried to improve the performance of my network via add drop out layer and recurrent drop out in LSTM layer, but actually this issue did not improve the performance of our network at all.
+
+Previous architecture with adding a drop out (0.5) layer:
+
+![LSTM -300epochs- DO0 5](https://user-images.githubusercontent.com/42337253/192339643-0eeb668a-9093-4b36-a2c9-8c4d035b1b72.png)
+
+![LSTM loss-300epochs- DO0 5](https://user-images.githubusercontent.com/42337253/192339685-657be1f7-cbc2-4491-aca2-831d957ac136.png)
+
+![LSTM mae-300epochs- DO0 5](https://user-images.githubusercontent.com/42337253/192339740-f1237f8c-591f-47a8-9ae4-737a8a7985eb.png)
+
+![LSTM prediction-300epochs- DO0 5](https://user-images.githubusercontent.com/42337253/192339859-4fdb7910-5eec-4166-9a3b-1bf0bb61f521.png)
+
+
+Previous architecture with adding recurrent drop out (0.5) in LSTM layer:
+
+![LSTM -300epochs- RDO0 5](https://user-images.githubusercontent.com/42337253/192339858-58efddb9-5853-40af-b44e-d50c91a17892.png)
+
+![LSTM loss-300epochs- RDO0 5](https://user-images.githubusercontent.com/42337253/192339913-ac992cb7-c6fa-4892-9642-d343e09733ae.png)
+
+![LSTM mae-300epochs- RDO0 5](https://user-images.githubusercontent.com/42337253/192340040-acdc053d-3bb7-4b34-8404-b31ef4799f82.png)
+
+![LSTM prediction-300epochs- RDO0 5](https://user-images.githubusercontent.com/42337253/192340056-31e007e3-08fa-40f9-9fdd-58ca8cdaab29.png)
+
+
+
+
