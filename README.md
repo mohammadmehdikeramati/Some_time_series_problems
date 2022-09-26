@@ -137,3 +137,4 @@ LSTM prediction whitout normalizing:
 ![LSTM prediction-300epochs whitout normalizing](https://user-images.githubusercontent.com/42337253/192321571-f06beff1-7bce-429f-83b7-f6418e0d4565.png)
 
 
+
