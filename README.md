@@ -125,6 +125,14 @@ This is a time series anticipation project. It seems there is not fundamental di
 
 LSTM epochs without normalizing:
 
+![LSTM -300epochs- without normalizing](https://user-images.githubusercontent.com/42337253/192343305-663b4628-6035-426a-a942-1e5f4b29bc88.png)
+
+
+
+
+
+
+
 LSTM training and validation loss without normalizing: 
 
 ![LSTM loss-300epochs- whitout normalizing](https://user-images.githubusercontent.com/42337253/192319925-e378af55-ea06-4caf-8693-c9af1155eb26.png)
@@ -141,6 +149,9 @@ LSTM prediction without normalizing:
 LSTM epochs with normalizing:
 
 ![LSTM -300epochs](https://user-images.githubusercontent.com/42337253/192340753-b81f056e-fc18-42df-a214-38ccb82436e5.png)
+
+
+
 
 
 
