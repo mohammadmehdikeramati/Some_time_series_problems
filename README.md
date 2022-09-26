@@ -123,6 +123,8 @@ SimpleRNN:
 ## Fourth problem: Forecasting numbers of an international flight passengers between 1949 and 1960.
 This is a time series anticipation project. It seems there is not fundamental differences among this dataset and the previous one but implementing last scrip (with little changes) did not show as good result as last part. In fact, even though by increasing epochs the loss, mae, validation loss and validation mae reduced, the algorithm could not convergent within 300 epochs. This issue is because dataset values were huge. Hence, I decided to normalize data and you can see the effect of normalization on convergence below. This part code uploaded as 'Number of Passengers Project'.
 
+LSTM epochs without normalizing:
+
 LSTM training and validation loss without normalizing: 
 
 ![LSTM loss-300epochs- whitout normalizing](https://user-images.githubusercontent.com/42337253/192319925-e378af55-ea06-4caf-8693-c9af1155eb26.png)
@@ -169,7 +171,7 @@ Previous architecture with adding a drop out (0.5) layer:
 
 Previous architecture with adding recurrent drop out (0.5) in LSTM layer:
 
-       ![LSTM -300epochs- RDO0 5](https://user-images.githubusercontent.com/42337253/192339858-58efddb9-5853-40af-b44e-d50c91a17892.png)
+![LSTM -300epochs- RDO0 5](https://user-images.githubusercontent.com/42337253/192339858-58efddb9-5853-40af-b44e-d50c91a17892.png)
 
 ![LSTM loss-300epochs- RDO0 5](https://user-images.githubusercontent.com/42337253/192339913-ac992cb7-c6fa-4892-9642-d343e09733ae.png)
 
