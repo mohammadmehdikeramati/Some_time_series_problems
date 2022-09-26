@@ -127,12 +127,6 @@ LSTM epochs without normalizing:
 
 ![LSTM -300epochs- without normalizing](https://user-images.githubusercontent.com/42337253/192343305-663b4628-6035-426a-a942-1e5f4b29bc88.png)
 
-
-
-
-
-
-
 LSTM training and validation loss without normalizing: 
 
 ![LSTM loss-300epochs- whitout normalizing](https://user-images.githubusercontent.com/42337253/192319925-e378af55-ea06-4caf-8693-c9af1155eb26.png)
@@ -151,10 +145,6 @@ LSTM epochs with normalizing:
 ![LSTM -300epochs](https://user-images.githubusercontent.com/42337253/192340753-b81f056e-fc18-42df-a214-38ccb82436e5.png)
 
 
-
-
-
-
 LSTM training and validation loss with normalizing:
 
 ![LSTM loss-300epochs](https://user-images.githubusercontent.com/42337253/192337314-dd18a541-2a58-44a8-9729-6387dfd91b56.png)
@@ -169,7 +159,7 @@ LSTM prediction with normalizing:
 
 ![LSTM prediction-300epochs- DO0 5](https://user-images.githubusercontent.com/42337253/192337605-16bc5aa4-3352-4b68-b4e2-599c72ba8c04.png)
 
-I also tried to improve the performance of my network via add drop out layer and recurrent drop out in LSTM layer, but actually this issue did not improve the performance of our network at all.
+I also tried to improve the performance of my network via adding drop out layer and recurrent drop out in LSTM layer, but actually this issue did not improve the performance of our network at all.
 
 Previous architecture with adding a drop out (0.5) layer:
 
