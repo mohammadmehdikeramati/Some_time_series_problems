@@ -25,6 +25,9 @@ num_train_samples = int(0.5 * len(raw_data))
 num_val_samples = int(0.25 * len(raw_data))
 num_test_samples = len(raw_data) - num_train_samples - num_val_samples
 
+
+######## Train, Test and Valivation Split #####
+
 print("num_train_samples:", num_train_samples)
 print("num_val_samples:", num_val_samples)
 print("num_test_samples:", num_test_samples)
@@ -38,7 +41,7 @@ std = raw_data[:num_train_samples].std(axis=0)
 raw_data /= std
 
 
-################# Transormation ####################
+################# Transformation ####################
 
 sampling_rate = 6
 sequence_length = 120
