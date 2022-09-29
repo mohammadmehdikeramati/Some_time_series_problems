@@ -18,11 +18,15 @@ x = np.sin(0.08 * t)
 
 x=pd.DataFrame(x)
 
+
+######## Train, Test and Valivation Split #####
+
 num_train_samples = int(0.5 * len(x))
 num_val_samples = int(0.25 * len(x))
 num_test_samples = len(x) - num_train_samples - num_val_samples
 
 
+################ Normaliztion ####################
 
 sampling_rate = 1
 sequence_length = 100
@@ -34,6 +38,8 @@ batch_size = 10
 test_1= x[:-delay]
 test_2=x[delay:]
 
+
+################# Transormation ####################
 
 
 train_dataset = keras.utils.timeseries_dataset_from_array(
