@@ -2,7 +2,7 @@
 """
 Created on Wed Sep 21 17:33:43 2022
 
-@author: Mehdi Keramati
+@author: Mohammad Mehdi Keramati
 """
 
 
@@ -25,11 +25,13 @@ Data = pd.read_csv(data, sep=",")
 
 x=Data.drop('Month', axis=1)
 
+
+
+######## Train, Test and Valivation Split #####
+
 num_train_samples = int(0.67 * len(x))
 num_val_samples = int(0.17 * len(x))
 num_test_samples = len(x) - num_train_samples - num_val_samples
-
-
 
 
 ##################  Normalization #################
